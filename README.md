@@ -3,7 +3,7 @@
     <img src="/Misc/logo.png" alt="Logo">
   </a>
 
-  <h3 align="center" style="color: #26a6ff">Arduino Volume Mixer</h3>
+  <h3 align="center" color="blue">Arduino Volume Mixer</h3>
 
   <p align="center">
     Windows Volume Mixer but made with Arduino and C#.
