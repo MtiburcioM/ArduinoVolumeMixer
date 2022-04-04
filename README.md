@@ -50,6 +50,8 @@ Schematics were made with Fritzing.
 Here are some pictures of the project.
 
 <img src="/Misc/1.jpg" alt="Preview 1">
+
+This is with a custom case I made for it.
 <img src="/Misc/2.jpg" alt="Preview 2">
 
 ## To-Do
