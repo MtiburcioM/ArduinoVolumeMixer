@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/AndrejStojkovic/Arduino-TempControl">
-    <img src="/Misc/Logo.png" alt="Logo">
+    <img src="/Misc/logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Arduino Volume Mixer</h3>
