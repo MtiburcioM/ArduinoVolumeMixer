@@ -1,12 +1,10 @@
 <p align="center">
-  <a href="https://github.com/AndrejStojkovic/Arduino-TempControl">
-    <img src="/Misc/logo.png" alt="Logo">
-  </a>
+
 
   <h3 align="center" color="blue">Arduino Volume Mixer</h3>
 
   <p align="center">
-    Windows Volume Mixer but made with Arduino and C#.
+    Windows Volume Mixer but made with Arduino and C# to control al aplication.
   </p>
 </p>
 
@@ -14,8 +12,6 @@
 ## Table of contents
 
 - [Quick start](#quick-start)
-- [Schematics](#schematics)
-- [Preview](#preview)
 - [To-Do](#to-do)
 - [Bugs](#bugs)
 - [Creators](#creators)
@@ -30,7 +26,7 @@ What you will need for this project:
 - C# with .NET Framework 4.5+
 
 Steps to make it work:
-1. Download the release version from here: https://github.com/AndrejStojkovic/ArduinoVolumeMixer/releases/tag/Release (ArduinoVolumeMixer.rar)
+1. Download the release version from here: are no avaliable (ArduinoVolumeMixer.rar)
 2. Extract the files somewhere.
 3. Plug in your Arduino to your PC and set it up according to the schematics.  
 4. Upload the sketch from the sketches folder according to the schematic you followed.
@@ -38,25 +34,11 @@ Steps to make it work:
 6. Enter your 'COMx' from the Arduino (you can find this either in Device Manager or the Arduino IDE program).
 7. And voila! It should work.
 
-## Schematics
-
-Here are the schematics for the Arduino.
-Schematics were made with Fritzing.
-
-<img src="/Schematic/avm_schem_bb.png" alt="Schematic 1">
-
-## Preview
-
-Here are some pictures of the project.
-
-<img src="/Misc/1.jpg" alt="Preview 1">
-
-This is with a custom case I made for it.
-<img src="/Misc/2.jpg" alt="Preview 2">
 
 ## To-Do
 
 - Add a way to close app without Task Manager.
+- generate the GUI to see the program to select change the volume
 
 ## Bugs
 
@@ -65,7 +47,8 @@ This is with a custom case I made for it.
 
 ## Creators
 
-- [Andrej Stojkovic](https://github.com/AndrejStojkovic)
+- original project [Andrej Stojkovic](https://github.com/AndrejStojkovic)
+- modifications  [MtiburcioM](https://github.com/MtiburcioM)
 
 ## License
 

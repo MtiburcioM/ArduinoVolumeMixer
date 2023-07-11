@@ -1,33 +1,35 @@
-const int pots = 5;
+/* Encoder Library - TwoKnobs Example
+ * http://www.pjrc.com/teensy/td_libs_Encoder.html
+ *
+ * This example code is in the public domain.
+ */
 
-int volumes[pots] = {
-  100,    // master volume
-  100,    // browser
-  100,    // spotify
-  100,    // discord
-  100     // games
-};
+#include <Encoder.h>
+
+
+Encoder knobLeft(5, 6);
+Encoder knobRight(7, 8);
+//   avoid using pins with LEDs attached
 
 void setup() {
   Serial.begin(9600);
 }
 
+
 void loop() {
-  potentiometer("m", 0); // Master
-  potentiometer("b", 1); // Browser
-  potentiometer("s", 2); // Spotify
-  potentiometer("d", 3); // Discord
-  potentiometer("g", 4); // Games
-  
-  delay(5); // breaks without delay
-}
+  long newLeft, newRight;
 
-void potentiometer(String c, int pin) {
-  int potVal = analogRead(pin);
-  potVal = map(potVal, 0, 1024, 0, 101);
+  newLeft = knobLeft.read();
+  newRight = knobRight.read();
 
-  if(potVal != volumes[pin]) {
-    volumes[pin] = potVal;
-    Serial.println(c + volumes[pin]);
+  if (newLeft != positionLeft || newRight != positionRight) {
+    // & is the separating character 
+    Serial.print(newLeft+"&"+newRight);
+
+    Serial.println();
+    positionLeft = newLeft;
+    positionRight = newRight;
+
   }
+
 }
