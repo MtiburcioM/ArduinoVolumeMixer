@@ -22,7 +22,7 @@
 
 What you will need for this project:
 - Arduino Uno
-- Parts: 5xB10K Potentiometers, Wires
+- Parts: 2x Rotary encoder (incremental), Wires
 - C# with .NET Framework 4.5+
 
 Steps to make it work:
@@ -39,6 +39,7 @@ Steps to make it work:
 
 - Add a way to close app without Task Manager.
 - generate the GUI to see the program to select change the volume
+
 
 ## Bugs
 
