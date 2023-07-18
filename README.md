@@ -26,13 +26,7 @@ What you will need for this project:
 - C# with .NET Framework 4.5+
 
 Steps to make it work:
-1. Download the release version from here: are no avaliable (ArduinoVolumeMixer.rar)
-2. Extract the files somewhere.
-3. Plug in your Arduino to your PC and set it up according to the schematics.  
-4. Upload the sketch from the sketches folder according to the schematic you followed.
-5. Then open the ConsoleMixer project in VS or just open the Debug folder and run the program.
-6. Enter your 'COMx' from the Arduino (you can find this either in Device Manager or the Arduino IDE program).
-7. And voila! It should work.
+in process
 
 
 ## To-Do
